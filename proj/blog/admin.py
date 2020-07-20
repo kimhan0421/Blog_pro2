@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Blog #admin에 model 등록하기
 
-# Register your models here.
+admin.site.register(Blog)
